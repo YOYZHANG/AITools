@@ -3,7 +3,7 @@
   NPM_FLAGS="--prefix=/"
 
 [build]
-  publish = ".vitpress/dist"
+  publish = ".vitepress/dist"
   command = "pnpm run docs:build"
 
 [[redirects]]
