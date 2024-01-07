@@ -8,7 +8,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
-      { text: '关于我们', link: '/doc/about.md' }
+      { text: '关于我们', link: '/docs/about.md' }
     ],
 
     sidebar: [
@@ -16,7 +16,7 @@ export default defineConfig({
         text: '通用 AI 对话模型',
         items: [
           { text: 'ChatGPT', link: '/docs/general/chatgpt.md' },
-          { text: 'yiyan', link: '/docs/general/yiyan.md' }
+          { text: '文心一言', link: '/docs/general/yiyan.md' }
         ]
       },
       {
